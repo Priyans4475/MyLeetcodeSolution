@@ -4,7 +4,7 @@ public:
         unordered_map<int, vector<int>> temp_group;
         vector<vector<int>> result;
         
-        for(int i = 0; i < groupSizes.size(); ++i) {
+        for(int i = 0; i < groupSizes.size(); i++) {
             int size = groupSizes[i];
             temp_group[size].push_back(i);
             
